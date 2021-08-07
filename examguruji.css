@@ -1,0 +1,417 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+main img{
+    width: 15rem;
+}
+header{
+    background-color: rgb(231, 55, 55);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    border: .4rem solid black;
+    border-radius: .8rem;
+    width: 100%;
+    height: 23rem;
+    
+
+
+}
+header img{
+   
+    position: absolute;
+    border-radius: .4rem;
+    width: 32rem;
+    height: 22.1rem;
+    
+    
+}
+header p{
+   position: absolute;
+   float: right;
+    right: 18rem;
+    top: -1rem;
+   margin: 2rem;
+    padding: 2rem;
+    font-size: 7vw;
+      letter-spacing: 0.1rem;
+      
+   
+}
+nav{
+   font-size: 3rem;
+   margin: .5rem;
+   background-color: rgb(43, 43, 42);
+   border: .4rem solid black;
+   border-radius: .4rem;
+   width: auto;
+   
+
+}
+nav a{
+    display: inline-block;
+    font-style: italic;
+    color: white;
+    padding: 2rem;
+}
+nav a:hover{
+    color:red;
+}
+section{
+    background-color: rgb(167, 241, 137);
+    border: .4rem solid black;
+    border-radius: .4rem;
+    width: auto;
+    height: 65rem;
+    position: relative;
+    text-align: center;
+}
+section h2{
+    font-size: 3rem;
+    padding: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    text-align: center;
+}
+section h2 a{
+    color:black;
+}
+section h2 a:hover{
+    color: blue;
+}
+.kvs img {
+    width: 20rem;
+    position: absolute;
+    top: 10rem;
+    left: 8rem;  
+}
+.kvs a{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bolder;
+    top: 30rem;
+    left: 11rem ;
+}
+.army img{
+    width: 20rem;
+    position: absolute;
+    top: 10rem;
+    left: 42rem;
+
+}
+.army a{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bolder;
+    top: 30rem;
+    left: 46.5rem ;
+}
+.evs img{
+    width: 20rem;
+    position: absolute;
+    top: 10rem;
+    left: 76rem;
+}
+.evs a{ 
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bolder;
+    top: 30rem;
+    left: 76.1rem ;
+
+}
+.mpgk img{
+    width: 20rem;
+    position: absolute;
+    top: 10rem;
+    left: 110rem;
+}
+.mpgk a{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bolder;
+    top: 30rem;
+    left: 117rem ;
+}
+.uptet img{
+    width: 20rem;
+    position: absolute;
+    top: 40rem;
+    left: 25rem;
+
+}
+.uptet a{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bolder;
+    top: 60rem;
+    left: 31.2rem ;
+}
+.cd img{
+    width: 20rem;
+    position: absolute;
+    top: 40rem;
+    left: 90rem;
+}
+.cd a{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bolder;
+    top: 60rem;
+    left: 91.7rem ;
+    
+}
+.kvs a ,.mpgk a ,.uptet a ,.evs a ,.cd a ,.army a:hover{
+    color: rgb(0, 17, 255);
+}
+
+
+@media (max-width:1200px){
+    html{
+        font-size: 60%;
+    }
+    header p{
+        position: absolute;
+        right: 12rem;
+    }
+    .mpgk img, .mpgk a{
+        display: none;
+    }
+    .cd img{
+        position: absolute;
+        left : 65rem;
+    }
+    .cd a{
+        position: absolute;
+        left: 66.6rem;
+    }
+
+}
+@media (max-width:1400px){
+    html{
+        font-size: 60%;
+    }
+    header p{
+        position: absolute;
+        right: 10rem;
+        top: 1.5rem;
+    }
+}
+@media (max-width:1100px){
+    html{
+        font-size: 55%;
+    }
+    header p{
+        position: absolute;
+        right: 10rem;
+    }
+}
+
+@media (max-width:950px){
+    html{
+        font-size: 50%;
+    }
+    header p{
+        position: absolute;
+        right: 8rem;
+        top: 2rem;
+    }
+}
+@media (max-width:860px){
+    html{
+        font-size: 42%;
+    }
+    header p{
+        position: absolute;
+        right: 9rem;
+        top: 1.5rem;
+    }
+}
+@media (max-width:700px){
+    html{
+        font-size: 35%;
+    }
+    header p{
+        position: absolute;
+        right: 8rem;
+        top: 1.5rem;
+    }
+    @media (max-width:580px){
+        html{
+            font-size: 30%;
+        }
+        header p{
+            position: absolute;
+            right: 7rem;
+        }
+    }
+}
+@media (max-width:500px){
+    html{
+        font-size: 25%;
+    }
+    @media (max-width:425px){
+        html{
+            font-size: 55%;
+        }
+        header p{
+            display: none;
+        }
+        header img{
+            width: 100%;
+        }
+        nav a{
+            padding: 1rem;
+            font-size: 50%;
+            margin: 0;
+        }
+        section{
+            height: 110rem;
+        }
+        section h2 a{
+            padding: 4rem;
+            font-weight: bolder;
+            font-size: 3.5rem;
+            
+            
+            
+        }
+        .kvs img {
+            width: 28rem;
+            position: absolute;
+            left: 9rem;
+            top: 07.5rem;
+            
+        }
+        .kvs a{
+            position: absolute;
+            left:15.4rem;
+            top: 37rem;
+        }
+        .army img {
+            width: 28rem;
+            position: absolute;
+            left: 9rem;
+            top: 42rem;
+            
+        }
+        .army a{
+            position: absolute;
+            left:16.8rem;
+            top: 70rem;
+        }
+        .evs img{
+            position: absolute;
+            width: 28rem;
+            left: 9rem;
+            top: 76rem;
+        }
+        .evs a{
+            position: absolute;
+            left:13.3rem;
+            top: 105rem;
+    
+        }
+        .mpgk img, .uptet img, .cd img{
+            display: none;
+        }
+        .mpgk a, .uptet a, .cd a{
+            display: none;
+        }
+        
+    
+    }
+    @media (max-width:400px) { 
+        html{
+            font-size: 50%;
+        }
+         section h2 a {
+          font-size: 2.5rem;
+          color: blue;
+        }
+        
+    }
+    @media (max-width:365px) { 
+        html{
+            font-size: 50%;
+        }
+        
+    }
+    @media (max-width:350px) { 
+        html{
+            font-size: 42%;
+        }
+        
+    }
+    @media (max-width:310px){
+        html{
+            font-size: 40%;
+        }
+        header p{
+            display: none;
+        }
+        header img{
+            width: 100%;
+        }
+        nav a{
+            padding: 1rem;
+            font-size: 45%;
+            margin: 0;
+        }
+    }
+    @media (max-width:300px){
+        html{
+            font-size: 36%;
+        }
+        nav a{
+            padding: 1rem;
+        }
+}
+
+
+@media (max-width:265px){
+    html{
+        font-size: 33%;
+    }
+    header p{
+        display: none;
+    }
+    header img{
+        width: 100%;
+    }
+    nav a{
+        padding: 1rem;
+        font-size: 58%;
+        margin: 0;
+    }
+}
+@media (max-width:230px){
+    html{
+        font-size: 30%;
+    }
+    @media (max-width:220px){
+        html{
+            font-size: 30%;
+        }
+        
+    
+    @media (max-width:200px){
+        html{
+            font-size: 25%;
+        }
+        nav a{
+            padding: 1rem;
+            font-size: 60%;
+            margin: 0;
+        }
+        @media (max-width:150px){
+            html{
+                font-size: 15%;
+            }
