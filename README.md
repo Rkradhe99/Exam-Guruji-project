@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Rkradhe99
-- 👀 I’m interested in Full stack java developer 
+- 👀 I’m interested in Full stack developer 
 - 🌱 I’m currently learning web development
 - 💞️ I’m looking to collaborate on MERN technology
 - 📫 How to reach me My cont. no 9098421095
